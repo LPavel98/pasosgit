@@ -1,20 +1,17 @@
+git config --global user.email "pavel.perez.alvarez@gmail.com"
+git config --global user.name "LPavel98"
 
 
-…or create a new repository on the command line
-echo "# prueba" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/LPavel98/prueba.git
-git push -u origin main
-
-git remote add origin https://github.com/LPavel98/prueba.git
-git branch -M main
+git remote add origin https://github.com/LPavel98/Videojuegos2022.git
 git push -u origin main
 
 
-git clone http
+
+git clone https://github.com/LPavel98/Videojuegos2022.git
 git add .
 git commit -m ""
 git push -u origin main
